@@ -1,0 +1,237 @@
+{
+  "custom_pg_live_msg": {
+    "liveKind": "pg",
+    "sendMessage": "false",
+    "sendMq": "false"
+  },
+  "anchor_darw_lottery": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "anchor_darw_lottery_over": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "anchor_lottery_info": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "platform_red_packege_rain": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "platform_red_packege_rain_over": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "anchor_recommend_coupon": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "anchor_stick_product": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "anchor_push_shop": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "abnormal_state_notify": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "notify_anchor": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "anchor_new_recommend_product": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "anchor_new_explain_product": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "anchor_new_stick_product": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "viewer_get_coupon": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "anchor_ask_share": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "viewer_follow_shop": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "sku_auction_start": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "viewer_join_shop": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "sku_auction_get_the_goods": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "sku_auction_success": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "sku_auction_unpaid": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "anchor_new_add_product_to_cart": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "anchor_send_exclusive_coupon": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "real_draw_lottery": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "link_mic_fail": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "link_mic_stop": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "link_mic_refused": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "link_mic_connected": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "link_mic_cancel": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "link_mic_receive": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "link_mic_request_fail": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "link_mic_receive_fail": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "link_mic_end_fail": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "zgblive": {
+    "liveKind": "zgb",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "fans_task": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "platform_top_remind": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "link_mic_change_stream": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "end_live_receive": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "warn_live_receive": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "test_type": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "zt_live_get_coupon": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "zt_live_get_coupon1": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "live_start_lottery": {
+    "liveKind": "jxpp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "emerge_live_receive": {
+    "liveKind": "hdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "anchor_interesting_fission_coupon_start": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  },
+  "anchor_interesting_fission_coupon_over": {
+    "liveKind": "jdapp",
+    "sendMessage": "true",
+    "sendMq": "false"
+  }
+}
