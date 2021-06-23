@@ -4,30 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 给定两个用链表表示的整数，每个节点包含一个数位。
- * <p>
- * 这些数位是反向存放的，也就是个位排在链表首部。
- * <p>
- * 编写函数对这两个整数求和，并用链表形式返回结果。
- * <p>
- * <p>
- * 示例：
- * <p>
- * 输入：(7 -> 1 -> 6) + (5 -> 9 -> 2)，即617 + 295
- * 输出：2 -> 1 -> 9，即912
- * 进阶：思考一下，假设这些数位是正向存放的，又该如何解决呢?
- * <p>
- * 示例：
- * <p>
- * 输入：(6 -> 1 -> 7) + (2 -> 9 -> 5)，即617 + 295
- * 输出：9 -> 1 -> 2，即912
- * <p>
- * Definition for singly-linked list.
- * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int x) { val = x; }
- * }
+ * 求二叉树某条路径的和，是否等于指定值，如果等于输出路径
+ *
  */
 public class TreePathSumTest {
     public static void main(String[] args) {
@@ -96,14 +74,6 @@ public class TreePathSumTest {
         path.remove(path.size() - 1);
     }
 
-    private static List<Node> copyPath(List<Node> path) {
-        List<Node> copy = new ArrayList<Node>();
-        for (Node node : path) {
-            copy.add(node);
-        }
-        return copy;
-    }
-
     private static boolean checkSum(List<Node> path, int sum) {
         int curSum = 0;
         for (Node node : path) {
@@ -112,4 +82,11 @@ public class TreePathSumTest {
         return curSum == sum;
     }
 
+    private static List<Node> copyPath(List<Node> path) {
+        List<Node> copy = new ArrayList<Node>();
+        for (Node node : path) {
+            copy.add(node);
+        }
+        return copy;
+    }
 }

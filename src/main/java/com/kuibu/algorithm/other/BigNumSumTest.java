@@ -26,7 +26,7 @@ package com.kuibu.algorithm.other;
  * ListNode(int x) { val = x; }
  * }
  */
-public class LinkedNodeSumTest {
+public class BigNumSumTest {
 
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1);
