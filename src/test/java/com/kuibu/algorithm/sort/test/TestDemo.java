@@ -3,40 +3,58 @@ package com.kuibu.algorithm.sort.test;
 import common.util.CommonUtil;
 
 public class TestDemo {
+    public static void main(String[] args) {
+//        int[] arr = CommonUtil.generateRandomIntArr(20, 100);
+//        CommonUtil.printIntArr(arr);
+//
+//        quickSort(arr, 0, arr.length - 1);
+//
+//        CommonUtil.printIntArr(arr);
 
+        System.out.println(sqrt(2, 5));
 
-    public int[] merger (int[] arr1, int[] arr2) {
-        if(arr1 == null) {
-            return arr2;
-        }
-
-        if(arr2 == null) {
-            return arr1;
-        }
-
-        int[] res = new int[arr1.length + arr2.length];
-
-        int idx1 = 0;
-        int idx2 = 0;
-        int resIdx = 0;
-
-        while (idx1 < arr1.length && idx2 < arr2.length) {
-            if(arr1[idx1] < arr2[idx2]) {
-                res[resIdx++] = arr1[idx1++];
-            } else {
-                res[resIdx++] = arr2[idx2++];
-            }
-        }
-
-        while (idx1 < arr1.length) {
-            res[resIdx++] = arr1[idx1++];
-        }
-
-        while (idx2 < arr2.length) {
-            res[resIdx++] = arr2[idx2++];
-        }
-
-        return res;
     }
 
+
+    public static double sqrt(int n, int m) {
+        if(n < 0) {
+            return Double.NaN;
+        }
+
+        if(n <= 1) {
+            return n;
+        }
+
+        double delta = getDelta(m);
+
+        double mid = n / 2d;
+        double up = n;
+        double low = 0d;
+        double product = mid * mid;
+
+        while(Math.abs(product - n) > delta) {
+            if(product > n) {
+                up = mid;
+            } else if( product < n) {
+                low = mid;
+            }
+
+            mid = (up + low) / 2d;
+
+            product = mid * mid;
+        }
+
+        return mid;
+
+    }
+
+    private static double getDelta(int m) {
+        double delta = 1d;
+
+        for(int i = 0; i < m; i++) {
+            delta = delta / 10d;
+        }
+
+        return delta;
+    }
 }

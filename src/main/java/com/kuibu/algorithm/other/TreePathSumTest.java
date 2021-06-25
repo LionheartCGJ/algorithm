@@ -57,7 +57,8 @@ public class TreePathSumTest {
 
     public static void checkPath(Node father, int sum, List<Node> path, List<List<Node>> result) {
         path.add(father);
-        if (father.left == null || father.right == null) {
+
+        if (father.left == null && father.right == null) {
             if (checkSum(path, sum)) {
                 result.add(copyPath(path));
             }
